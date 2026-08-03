@@ -40,7 +40,7 @@ export default config;
 
 ### Template tag
 
-_Vue-like_ support for defining your markup between a specific tag. The default tag is `template` but it can be [customized](/docs/preprocessing.md#auto-preprocessing-options).
+_Kdu-like_ support for defining your markup between a specific tag. The default tag is `template` but it can be [customized](/docs/preprocessing.md#auto-preprocessing-options).
 
 ```html
 <template>
