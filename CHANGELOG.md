@@ -1,3 +1,13 @@
+# [5.0.0-alpha.1](https://github.com/hamberjs/hamber-preprocess/compare/v5.0.0-alpha.0...v5.0.0-alpha.1) (2026-08-03)
+
+
+### Bug Fixes
+
+* add sugarss v3 and v4 as supported ([cab64b1](https://github.com/hamberjs/hamber-preprocess/commit/cab64b199f66867dbae5f21a328e4f65bbf768d1))
+* map .sss as .css to support sugarss extension ([22fa825](https://github.com/hamberjs/hamber-preprocess/commit/22fa82529f339d681382f50726baf991cb9f8de3))
+
+
+
 # [5.0.0-alpha.0](https://github.com/hamberjs/hamber-preprocess/compare/v4.10.7...v5.0.0-alpha.0) (2026-08-03)
 
 
