@@ -202,7 +202,7 @@ export function hamberPreprocess(
     filename,
   }) => {
     // @ts-ignore
-    const transformResult: Processed = await scriptTransformer({
+    const transformResult = await scriptTransformer({
       content,
       attributes,
       markup: fullMarkup,

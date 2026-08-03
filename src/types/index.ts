@@ -2,17 +2,13 @@ import * as Options from './options';
 
 import type {
   Processed as HamberProcessed,
-  Preprocessor,
+  Preprocessor as HamberPreprocessor,
   PreprocessorGroup,
 } from 'hamber/types/compiler/preprocess';
 
 export { Options };
 
-export {
-  Processed as HamberProcessed,
-  PreprocessorGroup,
-  Preprocessor,
-} from 'hamber/types/compiler/preprocess';
+export { PreprocessorGroup } from 'hamber/types/compiler/preprocess';
 
 export type PreprocessorArgs = Preprocessor extends (options: infer T) => any
   ? T
@@ -28,9 +24,23 @@ export type TransformerArgs<T> = {
   options?: T;
 };
 
+/**
+ * Small extension to the official HamberProcessed type
+ * to include possible diagnostics.
+ * Used for the typescript transformer.
+ */
 export type Processed = HamberProcessed & {
   diagnostics?: any[];
 };
+
+/**
+ * Hamber preprocessor type with guaranteed Processed results
+ *
+ * The official type also considers `void`
+ * */
+export type Preprocessor = (
+  options: Parameters<HamberPreprocessor>[0],
+) => Processed | Promise<Processed>;
 
 export type Transformer<T> = (
   args: TransformerArgs<T>,
