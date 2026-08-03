@@ -22,6 +22,12 @@ import type {
   Transformers,
 } from './types';
 
+const TARGET_LANGUAGES = Object.freeze({
+  markup: 'html',
+  style: 'css',
+  script: 'javascript',
+});
+
 export const transform = async (
   name: string | null | undefined,
   options: TransformerOptions,
@@ -53,25 +59,10 @@ export function hamberPreprocess(
     aliases,
     markupTagName = 'template',
     preserve = [],
-    defaults,
     sourceMap = process?.env?.NODE_ENV === 'development' ?? false,
     ...rest
   } = {} as AutoPreprocessOptions,
 ): AutoPreprocessGroup {
-  const defaultLanguages = Object.freeze({
-    markup: 'html',
-    style: 'css',
-    script: 'javascript',
-    ...defaults,
-  });
-
-  // todo: remove this on v5
-  if (defaults != null) {
-    console.warn(
-      '[hamber-preprocess] Deprecation notice: using the "defaults" option is no longer recommended and will be removed in the next major version. Instead, define the language being used explicitly via the lang attribute.',
-    );
-  }
-
   const transformers = rest as Transformers;
 
   if (aliases?.length) {
@@ -133,7 +124,7 @@ export function hamberPreprocess(
         await getTagInfo(hamberFile);
 
       if (lang == null || alias == null) {
-        alias = defaultLanguages[type];
+        alias = TARGET_LANGUAGES[type];
         lang = getLanguageFromAlias(alias);
       }
 
@@ -287,7 +278,6 @@ export function hamberPreprocess(
   };
 
   return {
-    defaultLanguages,
     markup,
     script,
     style,
