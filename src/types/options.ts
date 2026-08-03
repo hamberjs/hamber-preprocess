@@ -38,11 +38,6 @@ export type Pug = Omit<PugOptions, 'filename' | 'doctype' | 'compileDebug'> &
 
 // @ts-ignore
 export type Sass = Omit<SassOptions, 'file' | 'data'> & {
-  // custom
-  implementation?: {
-    render: typeof render;
-    renderSync: typeof renderSync;
-  };
   renderSync?: boolean;
 } & ContentModifier;
 
