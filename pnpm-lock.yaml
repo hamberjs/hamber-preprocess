@@ -101,8 +101,8 @@ devDependencies:
     specifier: ^0.55.0
     version: 0.55.0
   sugarss:
-    specifier: ^2.0.0
-    version: 2.0.0
+    specifier: ^4.0.0
+    version: 4.0.1(postcss@8.5.25)
   ts-jest:
     specifier: ^27.1.5
     version: 27.1.5(@babel/core@7.29.7)(@types/jest@27.5.2)(jest@27.5.1)(typescript@4.9.5)
@@ -6640,10 +6640,13 @@ packages:
       - supports-color
     dev: true
 
-  /sugarss@2.0.0:
-    resolution: {integrity: sha512-WfxjozUk0UVA4jm+U1d736AUpzSrNsQcIbyOkoE364GrtWmIrFdk5lksEupgWMD4VaT/0kVx1dobpiDumSgmJQ==}
+  /sugarss@4.0.1(postcss@8.5.25):
+    resolution: {integrity: sha512-WCjS5NfuVJjkQzK10s8WOBY+hhDxxNt/N6ZaGwxFZ+wN3/lKKFSaaKUNecULcTTvE4urLcKaZFQD8vO0mOZujw==}
+    engines: {node: '>=12.0'}
+    peerDependencies:
+      postcss: ^8.3.3
     dependencies:
-      postcss: 7.0.39
+      postcss: 8.5.25
     dev: true
 
   /supports-color@5.5.0:
