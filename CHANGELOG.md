@@ -1,3 +1,13 @@
+## [4.10.7](https://github.com/hamberjs/hamber-preprocess/compare/v4.10.6...v4.10.7) (2026-08-03)
+
+
+### Bug Fixes
+
+* add pug const mixin ([ae400e4](https://github.com/hamberjs/hamber-preprocess/commit/ae400e4b2ff9956f21f46f8cd1e6119a4d7ae351))
+* stylus - handle relative sourcemap sources ([a5cd4dc](https://github.com/hamberjs/hamber-preprocess/commit/a5cd4dc160a039fb28e20f7eae12e090594bca27))
+
+
+
 ## [4.10.6](https://github.com/hamberjs/hamber-preprocess/compare/v4.10.5...v4.10.6) (2026-08-03)
 
 
