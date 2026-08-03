@@ -1,3 +1,7 @@
+# [5.0.0](https://github.com/hamberjs/hamber-preprocess/compare/v5.0.0-alpha.1...v5.0.0) (2026-08-03)
+
+
+
 # [5.0.0-alpha.1](https://github.com/hamberjs/hamber-preprocess/compare/v5.0.0-alpha.0...v5.0.0-alpha.1) (2026-08-03)
 
 
