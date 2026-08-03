@@ -1,3 +1,12 @@
+## [4.10.5](https://github.com/hamberjs/hamber-preprocess/compare/v4.10.4...v4.10.5) (2026-08-03)
+
+
+### Bug Fixes
+
+* always use absolute paths for less imports ([93d7d26](https://github.com/hamberjs/hamber-preprocess/commit/93d7d2613c843946ce97c3736300d36f854c602f))
+
+
+
 ## [4.10.4](https://github.com/hamberjs/hamber-preprocess/compare/v4.10.3...v4.10.4) (2026-08-03)
 
 
