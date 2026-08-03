@@ -1,3 +1,24 @@
+# [5.0.0-alpha.0](https://github.com/hamberjs/hamber-preprocess/compare/v4.10.7...v5.0.0-alpha.0) (2026-08-03)
+
+
+### Bug Fixes
+
+* remove support for `type` attribute ([83fdbc1](https://github.com/hamberjs/hamber-preprocess/commit/83fdbc163e87b705138afe3091b8ac5b676ed304))
+* remove support for custom default languages ([f2ae07a](https://github.com/hamberjs/hamber-preprocess/commit/f2ae07a0e6e50ba081ec35b0d86c69f71453d450))
+
+
+### Features
+
+* bump minimum node version to 14 ([746df1a](https://github.com/hamberjs/hamber-preprocess/commit/746df1a8c2e1b72136af4144656827566ff55981))
+* drop Node 10 and 12. Add 16 and 18 ([2e57aef](https://github.com/hamberjs/hamber-preprocess/commit/2e57aef4b9ce1fc1995e0499d4adb8d76fad463d))
+
+
+### Performance Improvements
+
+* ⚡️ remove support for deprecated node-sass ([5c562cc](https://github.com/hamberjs/hamber-preprocess/commit/5c562cc422962a0e059ab494d59a50969afb4433))
+
+
+
 ## [4.10.7](https://github.com/hamberjs/hamber-preprocess/compare/v4.10.6...v4.10.7) (2026-08-03)
 
 
