@@ -1,3 +1,13 @@
+## [4.10.3](https://github.com/hamberjs/hamber-preprocess/compare/v4.10.2...v4.10.3) (2026-08-03)
+
+
+### Bug Fixes
+
+* add # and numbers to ts store regex ([60e6b09](https://github.com/hamberjs/hamber-preprocess/commit/60e6b0963ad43bc8cc69bef695692b7f5d40be84))
+* adjust typescript peer dep ([1f1d06c](https://github.com/hamberjs/hamber-preprocess/commit/1f1d06ce43046953b1f288cf17f26783df582b89))
+
+
+
 ## [4.10.2](https://github.com/hamberjs/hamber-preprocess/compare/v4.10.1...v4.10.2) (2026-08-03)
 
 
