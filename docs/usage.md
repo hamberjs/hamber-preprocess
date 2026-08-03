@@ -18,6 +18,8 @@ Some tools of the Hamber ecosystem, such as [hamber-vscode](https://marketplace.
 
 **Example**:
 
+Write the config in ESM style when you have `"type": "module"` in your `package.json`. This is the case for Wite starters and HamberKit projects.
+
 ```js
 // hamber.config.js
 import preprocess from 'hamber-preprocess';
@@ -36,6 +38,20 @@ const config = {
 
 export default config;
 ```
+
+Write the config in CommonJS style when you don't have `"type": "module"` in your `package.json`. This is the case for the Hamber starter template.
+
+```js
+// hamber.config.js
+const hamberPreprocess = require('hamber-preprocess');
+module.exports = {
+  preprocess: hamberPreprocess({
+    // ...hamber-preprocess options
+  }),
+  // ...other hamber options
+};
+```
+
 
 _Tip: this file can be imported in your bundle config instead of having multiple hamber configurations lying around._
 
