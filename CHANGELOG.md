@@ -1,3 +1,12 @@
+## [4.10.4](https://github.com/hamberjs/hamber-preprocess/compare/v4.10.3...v4.10.4) (2026-08-03)
+
+
+### Bug Fixes
+
+* only try to load external files with relative paths ([057773d](https://github.com/hamberjs/hamber-preprocess/commit/057773da4c45c52dbb62b73346d82162c9a8879a))
+
+
+
 ## [4.10.3](https://github.com/hamberjs/hamber-preprocess/compare/v4.10.2...v4.10.3) (2026-08-03)
 
 
