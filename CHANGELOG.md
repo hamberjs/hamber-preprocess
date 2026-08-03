@@ -1,3 +1,13 @@
+## [4.10.6](https://github.com/hamberjs/hamber-preprocess/compare/v4.10.5...v4.10.6) (2026-08-03)
+
+
+### Bug Fixes
+
+* paths in postcss sourcemap sources array ([f80457e](https://github.com/hamberjs/hamber-preprocess/commit/f80457e2430b6e1479daf19942b685fc3d64b6a7))
+* preserve `[@font-face](https://github.com/font-face)` inside `:global` block ([781a64d](https://github.com/hamberjs/hamber-preprocess/commit/781a64d9fc6b78568e45b5cc40cb045fe6dca4d9))
+
+
+
 ## [4.10.5](https://github.com/hamberjs/hamber-preprocess/compare/v4.10.4...v4.10.5) (2026-08-03)
 
 
