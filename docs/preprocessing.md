@@ -290,7 +290,7 @@ Apart from those, the Pug preprocessor accepts:
 
 **Template blocks:**
 
-Some of Hamber's template syntax is invalid in Pug. `hamber-preprocess` provides some pug mixins to represent hamber's `{#...}{/...}` blocks: `+if()`, `+else()`, `+elseif()`, `+each()`, `+key()`, `+await()`, `+then()`, `+catch()`, `+html()`, `+debug()`.
+Some of Hamber's template syntax is invalid in Pug. `hamber-preprocess` provides some pug mixins to represent hamber's `{#...}{/...}` blocks: `+if()`, `+else()`, `+elseif()`, `+each()`, `+key()`, `+await()`, `+then()`, `+catch()`, `+html()`, `+const()`, `+debug()`.
 
 ```pug
 ul
